@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.company</OriginalElement>
+  <nodes>
+    <node x="0.0" y="103.0">com.company.Drone</node>
+    <node x="727.0" y="245.0">com.company.Engine</node>
+    <node x="547.0" y="244.0">com.company.Gyroscope</node>
+    <node x="455.25" y="0.0">com.company.Device</node>
+    <node x="360.0" y="255.0">com.company.OrientationSensor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.OrientationSensor" target="com.company.Device">
+      <point x="0.0" y="-48.5" />
+      <point x="443.5" y="83.0" />
+      <point x="515.25" y="83.0" />
+      <point x="-20.0" y="26.5" />
+    </edge>
+    <edge source="com.company.Gyroscope" target="com.company.Device">
+      <point x="0.0" y="-59.5" />
+      <point x="627.0" y="83.0" />
+      <point x="555.25" y="83.0" />
+      <point x="20.0" y="26.5" />
+    </edge>
+    <edge source="com.company.Engine" target="com.company.Device">
+      <point x="0.0" y="-58.5" />
+      <point x="822.5" y="73.0" />
+      <point x="595.25" y="73.0" />
+      <point x="60.0" y="26.5" />
+    </edge>
+    <edge source="com.company.Drone" target="com.company.Device">
+      <point x="0.0" y="-200.5" />
+      <point x="170.0" y="73.0" />
+      <point x="475.25" y="73.0" />
+      <point x="-60.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="427.5" y="227.0" />
+  <SelectedNodes>
+    <node>com.company.Device</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
